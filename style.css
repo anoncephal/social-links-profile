@@ -1,0 +1,85 @@
+* { 
+    margin: 0;
+    padding: 0; 
+}
+body {
+    color:white;
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+}
+p {
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* Custom weight classes */
+
+.weight-400 {   
+    font-weight: 400;
+}
+.weight-600 {
+    font-weight: 600;
+}
+.weight-700 {
+    font-weight: 700;
+}
+
+/* Whole viewport */ 
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: max-content;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Main container having all the data */
+
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 20px;
+    justify-content: space-between;
+    padding:30px;
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile > img {
+    border-radius: 50%;
+    object-fit: contain;
+}
+.name {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.location  {
+    color: hsl(75, 94%, 57%);
+}
+.description {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.link-box {
+    height: 40px;
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.link-box:hover {
+    background-color:hsl(75, 94%, 57%);
+    color:hsl(0, 0%, 8%);
+}
